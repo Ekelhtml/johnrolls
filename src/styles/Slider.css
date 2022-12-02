@@ -1,0 +1,35 @@
+.item{
+    height: 40rem;
+    min-width: 30rem;
+    padding: 2rem;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+.slider{
+    display: flex;
+    cursor: grab;
+}
+.slider-container{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 940px) {
+    .item{
+        height: 35rem;
+        min-width: 26rem;
+        padding: 1.5rem;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .item{
+        height: 30rem;
+        min-width: 22.5rem;
+        padding: 1.1rem;
+    }
+
+}

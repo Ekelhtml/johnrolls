@@ -27,16 +27,16 @@ const Navbar = () => {
                         <a href='/' onClick={closeMenu}>Inicio</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about' onClick={closeMenu}>Bio</a>
+                        <a href='#bio' onClick={closeMenu}>Bio</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>Galeria</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>Media</a>
+                        <a href='#slider-container' onClick={closeMenu}>Galeria</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#demo' onClick={closeMenu}>Demo</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#social-container' onClick={closeMenu}>Media</a>
                     </li>
                 </ul>
             </nav>

@@ -1,0 +1,40 @@
+
+.social-container {
+    background: #eee;
+    padding: 25px 50px;
+    text-align:center;
+  }
+  
+  .social-container h1 {
+    padding:25px;
+
+   
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+
+  a.youtube,
+  a.facebock,
+  a.instagram  {
+    color: #000;
+    font-size:40px;
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    a.youtube,
+    a.facebock,
+    a.instagram  {
+      color: #000;
+      font-size:30px;
+    }
+  }
+
+
+  

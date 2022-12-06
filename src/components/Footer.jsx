@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-scroll';
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -6,19 +7,19 @@ const Footer = () => {
       <nav className="navbar">
         <ul>
           <li className="nav-item">
-            <a href="/">Inicio</a>
+          <Link to="hero" spy={true} smooth={true} offset={-100} duration={1000} >Inicio</Link>
           </li>
           <li className="nav-item">
-            <a href="#bio">Bio</a>
+            <Link to="bio" spy={true} smooth={true} offset={-100} duration={700} >Bio</Link>
           </li>
           <li className="nav-item">
-            <a href="#slider-container">Galeria</a>
+          <Link  to="slider-container" spy={true} smooth={true} offset={-100} duration={700} >Galeria</Link>
           </li>
           <li className="nav-item">
-            <a href="#demo">Demo</a>
+          <Link  to="demo" spy={true} smooth={true} offset={-100} duration={700} >Demo</Link>
           </li>
           <li className="nav-item">
-            <a href="#social-container">Media</a>
+          <Link  to="social-container" spy={true} smooth={true} offset={-180} duration={700} >Media</Link>
           </li>
         </ul>
       </nav>

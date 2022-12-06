@@ -11,7 +11,7 @@ return (
         <motion.div
         className="slider"
         drag="x"
-        dragConstraints={{ right: 0, left: -2400 }}
+        dragConstraints={{ right: 0, left: -1999 }}
         >
         {images.map((image) => (
             <motion.div className="item">

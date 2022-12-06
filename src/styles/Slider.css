@@ -1,6 +1,6 @@
 .item{
     height: 40rem;
-    min-width: 30rem;
+    min-width: 30.4rem;
     padding: 2rem;
 }
 .item img{
@@ -15,12 +15,13 @@
 .slider-container{
     margin: 0 auto;
     overflow-x: hidden;
+    background-color: #fff;
 }
 
 @media screen and (max-width: 940px) {
     .item{
         height: 35rem;
-        min-width: 26rem;
+        min-width: 23.9rem;
         padding: 1.5rem;
     }
 
@@ -28,7 +29,7 @@
 @media screen and (max-width: 600px) {
     .item{
         height: 30rem;
-        min-width: 22.5rem;
+        min-width: 22rem;
         padding: 1.1rem;
     }
 

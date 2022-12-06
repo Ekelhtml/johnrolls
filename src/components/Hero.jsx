@@ -3,7 +3,7 @@ import './Hero.css'
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div className='hero' id='hero'>
             <div className='content'>
                 <p>"Componer es sentir y transmitir"</p>
                 <p>John Rolls</p>

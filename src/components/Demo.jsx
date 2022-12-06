@@ -6,9 +6,9 @@ const Demo = () => {
     {
       id: 1,
       titulo: "Presentación canal Youtube",
-      subtitulo: "Jhon Rolls",
+      subtitulo: "John Rolls",
       texto:
-        "Jhon nos invita a saber quien es y lo que podes encontrar en su canal.",
+        "John nos invita a saber quien es y lo que podes encontrar en su canal.",
       video: "https://www.youtube.com/embed/bmNhegqk5Uw",
   
     },
@@ -18,7 +18,7 @@ const Demo = () => {
       titulo: "Entrevista para MarchiTV..",
       subtitulo: "La Música en el Cine.",
       texto:
-        "Jhon nos habla acerca de la importancia de la musica en el Cine. No te pierdas esta gran entrevista.",
+        "John nos habla acerca de la importancia de la musica en el Cine. No te pierdas esta gran entrevista.",
       video:"https://www.youtube.com/embed/9uTXaxxgFGI",
     },
   ];

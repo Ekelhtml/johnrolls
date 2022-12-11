@@ -44,11 +44,12 @@
 
 
 .bio .container img {
-  width: 90%;
-  
+  padding: 2rem;
+  width: 450px;
+  height: 600px;
   margin: auto;
   object-fit: cover;
-  object-position:center;
+  object-position: center;
 }
 
 @media screen and (max-width: 940px) {
@@ -68,10 +69,12 @@
    
   }
   .bio .container img {
-    padding: 0rem;
-    width: 70%;
-    object-fit: scale-down;
-      object-position:center;
+    padding: 2rem;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
   }
 
   .bio .container .col-2 {
@@ -81,10 +84,12 @@
   @media screen and (max-width: 600px) {
 
     .bio .container img {
-      padding: 0rem;
-      width: 90%;
-      object-fit: scale-down;
-      object-position:center;
+      padding: 2rem;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  object-fit: cover;
+  object-position: center;
     }
   }
 }

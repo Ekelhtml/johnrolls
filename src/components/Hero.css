@@ -29,31 +29,36 @@
 }
 
 .hero .content p:first-child {
-    font-style: italic;
+    margin-top:150px;
     font-size: 1rem;
+    font-family: 'adelia';
+    margin-bottom:70px;
 }
 
 
 
 .hero .content p:nth-child(2) {
     font-size: 7rem;
-    font-weight: 700;
-    font-family: 'League Gothic', sans-serif;
+    font-weight: 800;
+    font-family: 'adelia';
+    margin-bottom:100px;
 }
 
 
-.hero .content p:nth-child(4) {
+.hero .content p:nth-child(3) {
     font-size: 2rem;
-    font-style: italic;
+    
+    font-family: 'adelia';
 }
 
 
 @media screen and (max-width:940px) {
-    .hero .content p:nth-child(3) {
-        font-size: 2.6rem;
+    .hero .content p:nth-child(2) {
+        font-size: 4rem;
     }
 
-    .hero .content p:nth-child(4) {
+    .hero .content p:nth-child(3) {
+        
         font-size: 1.6rem;
     }
 }

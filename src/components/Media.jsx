@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaYoutube, FaFacebookSquare } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaFacebookSquare, FaSpotify } from "react-icons/fa";
 import "./Media.css";
 import "../index.css";
 
@@ -33,6 +33,14 @@ const Media = () => {
             rel="noreferrer"
           >
             <FaFacebookSquare />
+          </a>
+          <a
+            href="#?"
+            className="spotify social"
+            target="_blank"
+            rel="noreferrer"
+          >
+           <FaSpotify/>
           </a>
         </li>
       </ul>

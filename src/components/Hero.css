@@ -31,8 +31,9 @@
 .hero .content p:first-child {
     margin-top:150px;
     font-size: 1rem;
-    font-family: 'adelia';
-    margin-bottom:70px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:60px;
+    text-align:center;
 }
 
 
@@ -40,21 +41,30 @@
 .hero .content p:nth-child(2) {
     font-size: 7rem;
     font-weight: 800;
-    font-family: 'adelia';
-    margin-bottom:100px;
+    font-family: 'Adelia', sans-serif;
+    margin-bottom:80px;
+     text-align:center;
 }
 
 
 .hero .content p:nth-child(3) {
     font-size: 2rem;
-    
-    font-family: 'adelia';
+    font-family: 'Open Sans', sans-serif;
+     text-align:center;
 }
 
 
 @media screen and (max-width:940px) {
+    .hero .content p:first-child {
+       
+        margin-bottom:40px;
+       
+    }
+    
+    
     .hero .content p:nth-child(2) {
         font-size: 4rem;
+        margin-bottom:40px;
     }
 
     .hero .content p:nth-child(3) {

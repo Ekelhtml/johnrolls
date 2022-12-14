@@ -26,7 +26,8 @@ a.social:hover {
 
 a.youtube,
 a.facebock,
-a.instagram {
+a.instagram,
+a.spotify {
   color: #000;
   font-size: 40px;
 }
@@ -34,7 +35,8 @@ a.instagram {
 @media screen and (max-width: 600px) {
   a.youtube,
   a.facebock,
-  a.instagram {
+  a.instagram,
+  a.spotify {
     color:#eee;
     font-size: 30px;
   }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Link} from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import logo from './images/John-Rolls_logo.jpg'
+import logo from './images/Marca_sin_fondo.png'
 
 import './Navbar.css'
 

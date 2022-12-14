@@ -25,7 +25,7 @@
 }
 
 .header .navbar img {
-    width: 280px;
+    width: 150px;
     height: auto;
 }
 
@@ -36,6 +36,7 @@
 .header .nav-item {
     padding: 1rem;
     font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-item .active {
@@ -87,9 +88,8 @@
 
     .nav-item {
         margin: 1.5rem 0;
+        
     }
 
-    .header .navbar img {
-        width: 80px;
-    }
+ 
 }

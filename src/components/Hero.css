@@ -31,7 +31,7 @@
 .hero .content p:first-child {
     margin-top:150px;
     font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Open Sans;
     margin-bottom:60px;
     text-align:center;
 }
@@ -41,7 +41,7 @@
 .hero .content p:nth-child(2) {
     font-size: 7rem;
     font-weight: 800;
-    font-family: 'Adelia', sans-serif;
+    font-family: Adelia;
     margin-bottom:80px;
      text-align:center;
 }
@@ -49,16 +49,14 @@
 
 .hero .content p:nth-child(3) {
     font-size: 2rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Open Sans;
      text-align:center;
 }
 
 
 @media screen and (max-width:940px) {
     .hero .content p:first-child {
-       
         margin-bottom:40px;
-       
     }
     
     

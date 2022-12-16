@@ -5,14 +5,14 @@
   align-items: center;
   flex-wrap: wrap;
   height: 400px;
-  background: #8E9893;
+  background: #f0f2f1;
   padding: 25px 50px;
   text-align: center;
 }
 
 .social-container h1 {
   padding: 25px;
-  color:#eee;
+  color:#000;
 }
 a.social {
   margin: 0 1rem;
@@ -21,7 +21,7 @@ a.social {
 }
 a.social:hover {
   transform: translateY(-2px);
-  color: #eee;
+  color: #fff;
 }
 
 a.youtube,

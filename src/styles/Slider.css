@@ -7,15 +7,20 @@
     height: 100%;
     width: 100%;
     pointer-events: none;
+    object-fit: cover;
+    object-position: center;
+    
 }
 .slider{
     display: flex;
     cursor: grab;
+    
 }
 .slider-container{
     margin: 0 auto;
     overflow-x: hidden;
     background-color: #fff;
+    
 }
 
 @media screen and (max-width: 940px) {

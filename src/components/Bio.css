@@ -45,8 +45,8 @@
 
 .bio .container img {
   padding: 2rem;
-  width: 450px;
-  height: 600px;
+  min-width: 30.4;
+  height: 40rem;
   margin: auto;
   object-fit: cover;
   object-position: center;
@@ -69,9 +69,9 @@
    
   }
   .bio .container img {
-    padding: 2rem;
-    width: 400px;
-    height: 600px;
+    padding: 0rem;
+    min-width: 28.5;
+    height: 36rem;
     margin: auto;
     object-fit: cover;
     object-position: center;
@@ -85,8 +85,8 @@
 
     .bio .container img {
       padding: 2rem;
-  width: 350px;
-  height: 500px;
+      min-width: 27;
+      height: 33rem;
   margin: auto;
   object-fit: cover;
   object-position: center;

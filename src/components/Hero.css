@@ -29,39 +29,40 @@
 }
 
 .hero .content p:first-child {
-    margin-top:150px;
+    margin-top: 180px;
     font-size: 1rem;
-    font-family: Open Sans;
-    margin-bottom:60px;
-    text-align:center;
+    font-family: 'Open Sans';
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 
 
 .hero .content p:nth-child(2) {
-    font-size: 7rem;
+    margin-top: 30px;
+    font-size: 6rem;
     font-weight: 800;
-    font-family: Adelia;
-    margin-bottom:80px;
+    font-family: 'adelia';
+    margin-bottom:60px;
      text-align:center;
 }
 
 
 .hero .content p:nth-child(3) {
     font-size: 2rem;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
      text-align:center;
 }
 
 
 @media screen and (max-width:940px) {
     .hero .content p:first-child {
-        margin-bottom:40px;
+        margin-bottom:20px;
     }
     
     
     .hero .content p:nth-child(2) {
-        font-size: 4rem;
+        font-size: 3.8rem;
         margin-bottom:40px;
     }
 
@@ -69,6 +70,24 @@
         
         font-size: 1.6rem;
     }
+}
+    @media screen and (max-width: 600px) {
+        
+            .hero .content p:first-child {
+                font-size: 0.9rem;
+                margin-bottom:10px;
+            }
+            
+            
+            .hero .content p:nth-child(2) {
+                font-size: 3rem;
+                margin-bottom:40px;
+            }
+        
+            .hero .content p:nth-child(3) {
+                
+                font-size: 1.2rem;
+            }
 }
 
 

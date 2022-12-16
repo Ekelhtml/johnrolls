@@ -21,7 +21,7 @@ a.social {
 }
 a.social:hover {
   transform: translateY(-2px);
-  color: #fff;
+  color: #8E9893;
 }
 
 a.youtube,
@@ -37,7 +37,7 @@ a.spotify {
   a.facebock,
   a.instagram,
   a.spotify {
-    color:#eee;
+    color:#000;
     font-size: 30px;
   }
 }

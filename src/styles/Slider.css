@@ -25,16 +25,16 @@
 
 @media screen and (max-width: 940px) {
     .item{
-        height: 35rem;
-        min-width: 23.9rem;
+        height: 29rem;
+        min-width: 22rem;
         padding: 1.5rem;
     }
 
 }
 @media screen and (max-width: 600px) {
     .item{
-        height: 30rem;
-        min-width: 22rem;
+        height: 28rem;
+        min-width: 20rem;
         padding: 1.1rem;
     }
 
